@@ -1,0 +1,196 @@
+
+
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+background:#BCB19A
+
+
+}
+.container{
+  width:90%;
+  margin: auto;
+  overflow:hidden;
+
+}
+#About img{
+height: 400px;
+width: 400px;
+margin-bottom: 100px;
+margin-top: 20px;
+
+
+
+}
+#About p{
+margin: 0;
+padding: 0;
+
+
+}
+
+
+header{
+  padding-top: 30px; /* some padding */
+  min-height: 70px;
+  border-bottom: black 3px solid;
+  background: black; /* green background */
+  color: white; /* white text color */
+
+}
+
+/* Increase the font size of the <h1> element */
+header a{
+  color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 16px;
+}
+
+header ul{
+  margin:0;
+  padding:0;
+}
+
+header li{
+  float: right;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-top: 10px;
+}
+
+header .highlight, header.current a{
+  color:#fff;
+  font-weight: bold;
+}
+header a:hover{
+   color: #cccccc;
+   font-weight:bold;
+}
+
+
+
+#showcase{
+min-height: 800px;
+margin-top: 0px;
+background-image: url(./img/DSC_0002.JPG);
+background-size: cover;
+background-attachment: fixed;
+text-align: center;
+color:#ffffff
+}
+
+#showcase{
+  font-size: 90px;
+  margin-bottom: 150px;
+  margin-top: 0px;
+}
+
+
+#showcase p{
+  font-size: 20px;
+  margin-bottom: 100px;
+  line-height: 30px;
+}
+#showcase h1{
+  margin-top: 0px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 50px;
+  line-height: 450px;
+
+}
+
+#showcase img{
+  margin-bottom:10px;
+}
+
+#boxes{
+  margin-top:20px;
+}
+
+.box{
+  float:left;
+  width:33.33%
+  padding: 5px
+}
+
+#boxes .box img{
+  width: 300px;
+  padding:0 70px 0 70px;
+  margin-bottom: 100px;
+}
+
+
+#Portfolio{
+  background-color: #848482;
+  background-size: cover;
+height: 800px;
+
+
+
+}
+
+
+#contact{
+list-style: none;
+background-color: grey;
+background-size: cover;
+
+
+
+}
+#contact h1{
+  margin-bottom: 100px;
+}
+
+#contact li{
+  height: 200px;
+  float:center;
+  display:inline-table;
+  padding: 0px 100px 0px 100px;
+}
+
+
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration:none;
+}
+
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  background-color: black;
+  text-align: center;
+
+}
+footer p{
+  color: white;
+}
+.wrapper{
+  margin: 0 auto;
+  width:1000px;
+}
+video{
+  width:100%
+}
